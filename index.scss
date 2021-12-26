@@ -1,0 +1,43 @@
+.sidebar {
+  visibility: hidden;
+  background: pink;
+  width: 86px;
+  height: 144px;
+  font-family: "Quicksand", sans-serif;
+  padding: 12px 0px 0px 20px;
+  border-top-left-radius: 30px;
+}
+#switch {
+  display: block;
+  padding: 12px 0px 0px 20px;
+}
+
+body {
+  transition: all tranform 1.3s;
+}
+
+.home {
+  cursor: pointer;
+  padding-bottom: 8px;
+  padding-top: 4px;
+}
+
+.contact {
+  cursor: pointer;
+  padding-bottom: 8px;
+}
+
+.blog {
+  cursor: pointer;
+  padding-bottom: 8px;
+}
+
+.skills {
+  cursor: pointer;
+  padding-bottom: 8px;
+}
+
+.close {
+  width: 18px;
+  padding-left: 58px;
+}
